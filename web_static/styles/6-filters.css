@@ -49,15 +49,18 @@
 	font-weight: 400;
 	font-size: 14px;
 	padding-left: 40px;
+	margin-bottom: 5px;
 }
 
-.locations:hover .popover {
+ .locations:hover .popover {
 	visibility: visible;
-}
+	z-index: 9;
+	background: #fff;
+} 
 
 .locations .popover li {
 	list-style-type: none;
-	padding-left: 20%;
+	padding-left: 15%;
 }
 
 .amenities h3 {
@@ -70,10 +73,13 @@
 	font-weight: 400;
 	font-size: 14px;
 	margin-left: 40px;
+	margin-bottom: 5px;
 }
 
 .amenities:hover .popover {
 	visibility: visible;
+	z-index: 9;
+	background: #fff
 }
 
 .amenities .popover li {
@@ -91,4 +97,5 @@
 	border-radius: 4px;
 	padding: 10% 0 40px 0;
 	line-height: 25px;
+	margin: 0;
 }
